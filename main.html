@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Shop - Cyberpunk Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS&family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <audio autoplay loop>
+        <source src="https://cdn.freesound.org/previews/475/475045_7124898-lq.mp3" type="audio/mpeg">
+    </audio>
+<!--
+
+Tooplate 2146 Nexus Brew
+
+https://www.tooplate.com/view/2146-nexus-brew
+
+Free HTML CSS Template
+
+-->
+</head>
+<body>
+    <!-- Static patterns -->
+    <div class="static-pattern"></div>
+    <div class="hex-pattern"></div>
+    
+    <!-- Animated background shapes -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+    </div>
+    
+    <!-- Floating cats -->
+    <div class="floating-cats" aria-hidden="true">
+        <div class="floating-cat"></div>
+        <div class="floating-cat"></div>
+        <div class="floating-cat"></div>
+        <div class="floating-cat"></div>
+        <div class="floating-cat"></div>
+        <div class="floating-cat"></div>
+    </div>
+    
+    <!-- Grid overlay -->
+    <div class="grid-overlay"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">CAT SHOP</div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="pages/contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+    <h1 class="hero-title">CAT SHOP</h1>
+    <p class="hero-subtitle">Where Cats Meet Cyberpunk</p>
+        <div class="hero-buttons">
+            <a href="#menu" class="cta-button">Explore Our Matrix</a>
+            <a href="#specialty" class="cta-button cta-secondary">View Specialties</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+    <h2 class="glitch">CAT MENU</h2>
+        <div class="menu-container">
+            <div class="menu-category">
+                <h3>Warm Kittens</h3>
+                <ul class="menu-list">
+                    <li>
+                        <a href="#order-neon-espresso">
+                            <span class="menu-item-name">Domestic Shorthair</span>
+                            <span class="menu-item-price">$50</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-cyber-latte">
+                            <span class="menu-item-name">Siamese</span>
+                            <span class="menu-item-price">$450</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-matrix-mocha">
+                            <span class="menu-item-name">Persian</span>
+                            <span class="menu-item-price">$1,200</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-glitch-cappuccino">
+                            <span class="menu-item-name">Maine Coon</span>
+                            <span class="menu-item-price">$900</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-binary-americano">
+                            <span class="menu-item-name">Bengal</span>
+                            <span class="menu-item-price">$1,500</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-quantum-macchiato">
+                            <span class="menu-item-name">Sphynx</span>
+                            <span class="menu-item-price">$1,800</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-neural-tea">
+                            <span class="menu-item-name">Ragdoll</span>
+                            <span class="menu-item-price">$800</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="menu-category">
+                <h3>Chill Kitties</h3>
+                <ul class="menu-list">
+                    <li>
+                        <a href="#order-hologram-coldbrew">
+                            <span class="menu-item-name">Scottish Fold</span>
+                            <span class="menu-item-price">$700</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-cyber-iced-latte">
+                            <span class="menu-item-name">British Shorthair</span>
+                            <span class="menu-item-price">$600</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-neon-nitro">
+                            <span class="menu-item-name">Abyssinian</span>
+                            <span class="menu-item-price">$500</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-digital-frappe">
+                            <span class="menu-item-name">Norwegian Forest</span>
+                            <span class="menu-item-price">$850</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-protocol-tea">
+                            <span class="menu-item-name">American Shorthair</span>
+                            <span class="menu-item-price">$150</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-matrix-matcha">
+                            <span class="menu-item-name">Turkish Angora</span>
+                            <span class="menu-item-price">$650</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#order-glitch-smoothie">
+                            <span class="menu-item-name">Exotic Shorthair</span>
+                            <span class="menu-item-price">$550</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialty Section -->
+    <section id="specialty">
+        <h2 class="glitch">PURRFECT SERVICES</h2>
+        <div class="specialty-grid">
+            <div class="specialty-card">
+                <div class="specialty-badge">Exclusive</div>
+                <div class="specialty-icon">😺</div>
+                <h3>Purrfect Grooming</h3>
+                <p>Our expert groomers pamper your feline friends with luxurious treatments, from gentle brushing to relaxing massages. Each session is tailored to your cat's unique personality and needs, ensuring maximum purrs of satisfaction.</p>
+            </div>
+            
+            <div class="specialty-card">
+                <div class="specialty-badge">Limited</div>
+                <div class="specialty-icon">🐱</div>
+                <h3>Cat Daycare Paradise</h3>
+                <p>Leave your kitties in our care while you're away! Our cat-certified staff provides a safe and stimulating environment with climbing trees, cozy nap spots, and endless toys. Daily updates with cute photos included!</p>
+            </div>
+            
+            <div class="specialty-card">
+                <div class="specialty-badge">Premium</div>
+                <div class="specialty-icon">🐈</div>
+                <h3>Cat Cafe Experience</h3>
+                <p>Enjoy quality time in our cyberpunk-themed cat lounge! Spend an hour surrounded by friendly felines while sipping on your favorite beverage. Our resident cats are all available for adoption to approved homes. Make a friend, maybe even find your forever companion!</p>
+            </div>
+            
+            <div class="specialty-card">
+                <div class="specialty-badge">New</div>
+                <div class="specialty-icon">�</div>
+                <h3>Cat Adoption Services</h3>
+                <p>Ready to welcome a furry friend into your home? Our adoption specialists help match you with the perfect cat companion! All our cats are vaccinated, microchipped, and come with a complete health check. We provide ongoing support to ensure a smooth transition for both you and your new friend.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="glitch">OUR PAWSOME STORY</h2>
+        
+        <div class="about-tabs">
+            <button class="tab-button active" onclick="showTab('story')">Our Story</button>
+            <button class="tab-button" onclick="showTab('mission')">Mission</button>
+            <button class="tab-button" onclick="showTab('technology')">Technology</button>
+        </div>
+        
+        <div id="story" class="tab-content active">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>The Birth of Digital Cat Culture</h3>
+                    <p>What began as a handful of cat lovers building cozy corners in old server rooms grew into a movement: to create a space where tech and feline companionship thrive. Our founders transformed an experimental lounge into the Cat Shop — a place where whiskers meet wires.</p>
+                    <br>
+                    <p>We believe that great cats inspire great ideas. From improvised cardboard servers to AI-powered feeding stations, we blended affection with innovation to craft experiences that honor both curiosity and comfort. Photo credits and inspiration often come from community contributions.</p>
+                    <br>
+                    <p>Today, Cat Shop welcomes coders, creators, and cat people of all stripes. Every purr, paw, and playful leap tells a story of companionship, creativity, and the simple joy of sharing space with a good cat.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://cataas.com/cat?width=800&height=600" alt="Tabby cat lounging">
+                </div>
+            </div>
+        </div>
+        
+        <div id="mission" class="tab-content">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission: Celebrate Cats & Community</h3>
+                    <p>Cat Shop's mission is simple: create warm, safe spaces where people can connect through their love of cats. We support adoption, responsible pet care, and neighborhood initiatives that improve cat welfare.</p>
+                    <br>
+                    <p>We also foster creativity — offering quiet corners for focus, playful installations for inspiration, and events that bring cat lovers together. Our goal is to make every visit joyful for both humans and felines.</p>
+                    <br>
+                    <p>By blending community programs, educational resources, and a welcoming environment, we aim to be more than a shop — we're a cat-forward community hub.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://cataas.com/cat/cute?width=800&height=600" alt="Cute kitten portrait">
+                </div>
+            </div>
+        </div>
+        
+        <div id="technology" class="tab-content">
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>The Science Behind the Perfect Purr</h3>
+                    <p>We study feline behavior to design spaces that reduce stress and encourage play. From ambient lighting to texture-rich surfaces, our environment is tuned to make cats feel secure and curious.</p>
+                    <br>
+                    <p>Our caretakers use gentle monitoring systems to track activity, sleep, and social interactions — enabling tailored enrichment plans for each resident cat. This ensures happier, healthier feline friends for our community to enjoy.</p>
+                    <br>
+                    <p>We combine low-impact tech and compassionate care to create spaces where cats can thrive and people can relax, learn, and be inspired by the quiet magic of a purring companion.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://cataas.com/cat/sleepy?width=800&height=600" alt="Sleeping cat on a keyboard">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact moved to contact.html -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#careers">Careers</a>
+            </div>
+            <div class="copyright">
+            © 2026 Nexus Brew. All rights reserved. | Powered by Quantum Coffee Technology 
+            <br> Design: <a href="https://www.tooplate.com" target="_blank" rel="nofollow noopener">Tooplate</a></div>
+        </div>
+    </footer>
+<script src="scripts/main.js"></script>
+</body>
+</html>

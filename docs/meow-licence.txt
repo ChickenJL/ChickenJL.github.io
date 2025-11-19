@@ -1,0 +1,6 @@
+Audio source placeholder: please replace with a valid meow audio URL if needed.
+I included an external URL reference in the HTML to the Actions on Google public sounds library (may be unavailable in some environments). If you prefer a local file, download a short meow MP3/OGG into this workspace as `sounds/cat-meow.ogg` and update the <audio> src accordingly.
+
+Notes:
+- Browsers commonly block autoplay of audible audio until the user interacts with the page. I added a small JS fallback to start playback on first user click.
+- If you want the meow to be quieter, adjust the volume in the inline script (element.volume = 0.3).
